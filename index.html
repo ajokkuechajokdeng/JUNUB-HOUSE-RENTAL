@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <nav class="navbar nav-1">
+      <section class="flex">
+         <img class="logo" src="images/logo.png" alt="logo">
+
+         <ul>
+            <li><a href="#">Post Property<i class="fas fa-paper-plane"></i></a></li>
+         </ul>
+      </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+         <div class="menu">
+            <ul>
+               <li><a href="#">Buy<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">House</a></li>
+                     <li><a href="#">Flat</a></li>
+                     <li><a href="#">Shop</a></li>
+                     <li><a href="#">Ready to move</a></li>
+                     <li><a href="#">Furnished</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">sell<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">Post Property</a></li>
+                     <li><a href="#">Dashboard</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Rent<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">House</a></li>
+                     <li><a href="#">Flat</a></li>
+                     <li><a href="#">Shop</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Help<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="about.html">About Us</a></i></li>
+                     <li><a href="contact.html">contact Us</a></i></li>
+                     <li><a href="contact.html#faq">FAQ</a></i></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+
+         <ul>
+            <li><a href="#">Saved <i class="far fa-heart"></i></a></li>
+            <li><a href="#">Account <i class="fas fa-angle-down"></i></a>
+               <ul>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+               </ul>
+            </li>
+         </ul>
+      </section>
+   </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<div class="home">
+
+   <section class="center">
+
+      <form action="search.html" method="post">
+         <h3>Find your Dream Home</h3>
+         <div class="box">
+            <p>Enter Location <span>*</span></p>
+            <input type="text" name="location" required maxlength="50" placeholder="Enter Your Town Name" class="input">
+         </div>
+         <div class="flex">
+            <div class="box">
+               <p>Property Type <span>*</span></p>
+               <select name="type" class="input" required>
+                  <option value="flat">Flat</option>
+                  <option value="house">House</option>
+                  <option value="shop">Shop</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>How many BHK <span>*</span></p>
+               <select name="bhk" class="input" required>
+                  <option value="1">1 BHK</option>
+                  <option value="2">2 BHK</option>
+                  <option value="3">3 BHK</option>
+                  <option value="4">4 BHK</option>
+                  <option value="5">5 BHK</option>
+                  <option value="6">6 BHK</option>
+                  <option value="7">7 BHK</option>
+                  <option value="8">8 BHK</option>
+                  <option value="9">9 BHK</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Maximum Budget <span>*</span></p>
+               <select name="minimum" class="input" required>
+                  <option value="5000000">500,000 SSP</option>
+                  <option value="1000000">100,000 SSP</option>
+                  <option value="2000000">200,000 SSP</option>
+                  <option value="3000000">300,000 SSP</option>
+                  <option value="4000000">400,000 SSP</option>
+                  <option value="4000000">4,000,000 SSP</option>
+                  <option value="5000000">5,000,000 SSP</option>
+                  <option value="6000000">6,000,000 SSP</option>
+                  <option value="7000000">7,000,000 SSP</option>
+                  <option value="8000000">8,000,000 SSP</option>
+                  <option value="9000000">9,000,000 SSP</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Maximum Budget <span>*</span></p>
+               <select name="maximum" class="input" required>
+                  <option value="5000000">500,000 SSP</option>
+                  <option value="1000000">100,000 SSP</option>
+                  <option value="2000000">200,000 SSP</option>
+                  <option value="3000000">300,000 SSP</option>
+                  <option value="4000000">400,000 SSP</option>
+                  <option value="4000000">4,000,000 SSP</option>
+                  <option value="5000000">5,000,000 SSP</option>
+                  <option value="6000000">6,000,000 SSP</option>
+                  <option value="7000000">7,000,000 SSP</option>
+                  <option value="8000000">8,000,000 SSP</option>
+                  <option value="9000000">9,000,000 SSP</option>
+               </select>
+            </div>
+         </div>
+         <input type="submit" value="search property" name="search" class="btn">
+      </form>
+
+   </section>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- services section starts  -->
+
+<section class="services">
+
+   <h1 class="heading">Our Services</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/icon-1.png" alt="">
+         <h3>Buy House</h3>
+         <p> Find your dream home effortlessly with Junub House Rental. Our comprehensive listings and expert guidance ensure you discover the perfect property to purchase.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-2.png" alt="">
+         <h3>Rent House</h3>
+         <p>Experience hassle-free renting with Junub House Rental. From cozy apartments to spacious villas, we offer a diverse range of rental properties tailored to your needs.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-3.png" alt="">
+         <h3>Sell House</h3>
+         <p>Sell your property swiftly and efficiently with Junub House Rental. Our dedicated team provides expert assistance throughout the selling process, ensuring you achieve the best possible outcome.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-4.png" alt="">
+         <h3>Flats and Buildings</h3>
+         <p>Explore a variety of flats and buildings for rent or purchase with Junub House Rental. Whether you're looking for a modern apartment or a commercial space, we have options to suit every requirement.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-5.png" alt="">
+         <h3>Shops and Malls</h3>
+         <p>Discover prime retail spaces and malls for lease or sale with Junub House Rental. Maximize your business potential with our selection of commercial properties in strategic locations.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-6.png" alt="">
+         <h3>24/7 Service</h3>
+         <p>At Junub House Rental, we prioritize customer satisfaction. Our team is available round-the-clock to address your inquiries, provide assistance, and ensure a seamless real estate experience.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- listings section starts  -->
+
+<section class="listings">
+
+   <h1 class="heading">Latest listings</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="admin">
+            <h3>A</h3>
+            <div>
+               <p>Ajok Kuch Ajok</p>
+               <span>1-1-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>House</span><span>Sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-1.webp" alt="">
+         </div>
+         <h3 class="name">Modern flats and appartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Juba Town</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">view property</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>A</h3>
+            <div>
+               <p>Ajok Kuech Ajok</p>
+               <span>1-02-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>Flat</span><span>Sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-2.webp" alt="">
+         </div>
+         <h3 class="name">Modern Flats and appartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Torit Town</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">view property</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>A</h3>
+            <div>
+               <p>Ajok Kuech Ajok</p>
+               <span>1-O3-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>Flat</span><span>Sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-3.jpg" alt="">
+         </div>
+         <h3 class="name">Modern Flats and appartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Bor Town</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">view property</a>
+      </div>
+
+   </div>
+
+   <div style="margin-top: 2rem; text-align:center;">
+      <a href="listings.html" class="inline-btn">view all</a>
+   </div>
+
+</section>
+
+<!-- listings section ends -->
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<footer class="footer">
+
+   <section class="flex">
+
+      <div class="box">
+         <h1 class="title">Quick Links</h1><br>
+         <a href="home.html"><span>Home</span></a>
+         <a href="about.html"><span>About</span></a>
+         <a href="contact.html"><span>Contact</span></a>
+         <a href="listings.html"><span>All Listings</span></a>
+         <a href="#"><span>Saved Properties</span></a>
+      </div>
+
+      <div class="box">
+         <h1 class="title">Contact Us</h1><br>
+         <a href="#"><i class="fab fa-linkedin"></i>&nbsp; &nbsp; <span>Linkedin</span></a>
+         <a href="#"><i class="fab fa-twitter"></i>&nbsp; &nbsp; <span>Twitter</span></a>
+         <a href="#"><i class="fab fa-facebook-f"></i>&nbsp; &nbsp; <span>Facebook</span></i></a>
+         <a href="#"><i class="fab fa-instagram"></i>&nbsp; &nbsp; <span>Instagram</span></a>
+      </div>
+
+      <div class="box"><br><br>
+         <a href="tel: +211 (0)92 - 259 15 15"><i class="fas fa-phone"></i>&nbsp;&nbsp;<span>+211 (0)92 - 259 15 15</span></a>
+         <a href="mailto:ajokkuech@gmail.com"><i class="fas fa-envelope"></i>&nbsp;&nbsp;<span>ajokkuech@gmail.com</span></a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;<span>Busanza</span></a>
+      </div>
+      
+   </section>
+
+   <div class="copyright">&copy; 2024 Ajok Kuech Ajok. All rights reserved!</div>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
