@@ -8,7 +8,7 @@ Welcome to JUNUB HOUSE RENTAL Website repository. This project provides a profes
 - Responsive design ensures optimal viewing experience across devices.
 
 ## Setup
-- To set up the Junub House Rental Website on your local machine, follow these steps:
+To set up the Junub House Rental Website on your local machine, follow these steps:
 
 ### Clone the repository:
 - git clone https://github.com/ajokkuechajokdeng/JUNUB-HOUSE-RENTAL.git
