@@ -23,7 +23,7 @@ Welcome to JUNUB HOUSE RENTAL Website repository. This project provides a profes
 - Navigate through the pages to explore the features and functionalities of the website.
 
 # Usage
-- Here's how to use the JUNUB HOUSE RENTAl:
+Here's how to use the JUNUB HOUSE RENTAl:
 
 1. #### Search for Properties:
    - Visit the search page to filter properties based on location, type, budget, and other criteria.
